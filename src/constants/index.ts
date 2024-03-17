@@ -1,6 +1,8 @@
+import { NavLink, Highlight, Model, Sizes } from "@/models/index.model";
+
 export const navLists = ["Store", "Mac", "iPhone", "Support"];
 
-export const hightlightsSlides = [
+export const highlightsSlides: Highlight[] = [
   {
     id: 1,
     textLists: [
@@ -35,7 +37,7 @@ export const hightlightsSlides = [
   },
 ];
 
-export const models = [
+export const models: Model[] = [
   {
     id: 1,
     title: "iPhone 15 Pro in Natural Titanium",
@@ -62,15 +64,24 @@ export const models = [
   },
 ];
 
-export const sizes = [
+export const sizes: Sizes[] = [
   { label: '6.1"', value: "small" },
   { label: '6.7"', value: "large" },
 ];
 
-export const footerLinks = [
-  "Privacy Policy",
-  "Terms of Use",
-  "Sales Policy",
-  "Legal",
-  "Site Map",
+export const navLinks: NavLink[] = [
+  { name: "Home", href: "/" },
+  { name: "Mac", href: "/" },
+  { name: "Iphone", href: "/" },
+  { name: "Watch", href: "/" },
+  { name: "TV", href: "/" },
+  { name: "Music", href: "/" },
+];
+
+export const footerLinks: NavLink[] = [
+  { name: "Privacy Policy", href: "/" },
+  { name: "Terms of Use", href: "/" },
+  { name: "Sales and Refunds", href: "/" },
+  { name: "Legal", href: "/" },
+  { name: "Site Map", href: "/" },
 ];
