@@ -10,14 +10,14 @@ export const highlightsSlides: Highlight[] = [
       "Game‑changing chip.",
       "Groundbreaking performance.",
     ],
-    video: "/videos/hightllight-first.mp4",
+    video: "/videos/highlight-first.mp4",
     videoDuration: 4,
   },
   {
     id: 2,
     textLists: ["Titanium.", "So strong. So light. So Pro."],
     video: "/videos/hightlight-sec.mp4",
-    videoDuration: 5,
+    videoDuration: 2,
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const highlightsSlides: Highlight[] = [
       "iPhone ever. Far out.",
     ],
     video: "/videos/hightlight-third.mp4",
-    videoDuration: 2,
+    videoDuration: 5,
   },
   {
     id: 4,
