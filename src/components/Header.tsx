@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="py-5 w-full sm:px-10 px-5 flex justify-between items-center">
+    <header className="py-5 w-full sm:px-10 px-5 flex justify-between items-center bg-zinc/40 backdrop-blur sticky top-0 z-50">
       <nav className="flex items-center justify-between w-full scrim-max-width">
         <Link href="/">
           <Image src="/images/apple.svg" alt="logo" width={15} height={15} />
