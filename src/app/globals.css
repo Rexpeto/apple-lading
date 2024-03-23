@@ -39,7 +39,7 @@ canvas {
   }
 
   .btn {
-    @apply px-5 py-2 rounded-3xl bg-blue my-5 hover:bg-transparent border border-transparent hover:border hover:text-blue hover:border-blue;
+    @apply px-5 py-2 rounded-3xl bg-blue my-5 hover:bg-transparent border border-transparent hover:border hover:text-blue hover:border-blue transition duration-150;
   }
 
   .color-container {
@@ -79,7 +79,7 @@ canvas {
   }
 
   .link {
-    @apply text-blue hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20;
+    @apply text-blue hover:text-blue/60 cursor-pointer flex items-center text-xl opacity-0 translate-y-20 transition duration-150;
   }
 
   .control-btn {
@@ -120,5 +120,20 @@ canvas {
 
   .g_fadeIn {
     @apply opacity-0 translate-y-[100px];
+  }
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-400/60 rounded-lg transition duration-150;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400/80;
   }
 }
